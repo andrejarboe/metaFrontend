@@ -5,11 +5,14 @@ arithmetic
 +, -, / 
 
 comparison
+'''
 >
 <
 ==
+'''
+-logical
 
-logical
 !
 0r 
 and
+
