@@ -4,6 +4,7 @@
 try {
     console.log(a + b);
 } catch (err) {
+    console.log(err);
     console.log('There was a an error');
     console.log('The error was saved in the error log');
 }
