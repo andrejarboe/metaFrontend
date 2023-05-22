@@ -20,8 +20,11 @@ function letterFinder(word, match) {
                 console.log('---No match found at', i);
             }
         }
-	}
+    } else {
+        console.log('Please pass correct arguments to the function.');
+    }
 }
 
 letterFinder(1, 2)
+letterFinder([], []);
 letterFinder('cat', 'c');
