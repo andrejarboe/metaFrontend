@@ -14,11 +14,11 @@ class Person {
 
 class Worker extends Person {
     constructor(
-        xp = 0,
-        hourlyWage = 10,
         name,
         age,
-        energy
+        energy,
+        xp = 0,
+        hourlyWage = 10,
     ) {
         super(name, age, energy);
         this.xp = xp;
@@ -27,4 +27,16 @@ class Worker extends Person {
     goToWork() {
         this.xp += 10
     }
+}
+
+// Task 3: Code an intern object, run methods
+function intern() {
+    var internObject = new Worker(0,'Bob', 21, 110, 0, 10);
+    internObject.goToWork();
+    return internObject;
+}
+
+// Task 4: Code a manager object, methods
+function manager() {
+    
 }
