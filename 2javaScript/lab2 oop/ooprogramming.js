@@ -31,12 +31,14 @@ class Worker extends Person {
 
 // Task 3: Code an intern object, run methods
 function intern() {
-    var internObject = new Worker(0,'Bob', 21, 110, 0, 10);
+    var internObject = new Worker('Bob', 21, 110, 0, 10);
     internObject.goToWork();
     return internObject;
 }
 
 // Task 4: Code a manager object, methods
 function manager() {
-    
+    var managerObject = new Worker('Alice', 30, 120, 100, 30);
+    managerObject.doSomethingFun()
+    return managerObject;
 }
