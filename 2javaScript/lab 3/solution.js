@@ -30,9 +30,10 @@ bird.hasFeathers = true;
 
 function birdCan() {
     for (key of Object.keys(bird)){
-        console.log(key, ':', bird[key]);
+        console.log(key, ': ', bird[key]);
     }
 }
+
 
 birdCan();
 
@@ -40,7 +41,7 @@ birdCan();
 function animalCan() {
     birdCan();
     for (key of Object.keys(animal)){
-        console.log(key, ':', animal[key]);
+        console.log(key, ': ', animal[key]);
     }
 }
 
