@@ -37,3 +37,11 @@ function birdCan() {
 birdCan();
 
 // Task 3
+function animalCan() {
+    birdCan();
+    for (key of Object.keys(animal)){
+        console.log(key, ':', animal[key]);
+    }
+}
+
+animalCan();
