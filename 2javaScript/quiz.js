@@ -1,14 +1,6 @@
-class Person {
-	sayHello() {
-		console.log('Hello');
-	}
+function count(...basket) {
+	console.log(basket.length);
 }
 
-class Friend extends Person {
-	sayHello() {
-		console.log('Hey');
-	}
-}
+count(10, 9, 8, 7, 6);
 
-var result = new Friend();
-result.sayHello();
