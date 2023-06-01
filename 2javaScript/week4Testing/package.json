@@ -1,0 +1,15 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "main": "addFive.js",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
