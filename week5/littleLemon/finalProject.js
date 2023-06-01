@@ -32,6 +32,8 @@ function getPrices(taxBoolean) {
             console.log("You need to pass a boolean to the getPrices call!");
             return;
         } 
+
+        console.log(`Dish: ${item.name} Price: $${finalPrice}`);
 	}
 }
 
