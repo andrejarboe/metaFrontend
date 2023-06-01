@@ -1,23 +1,6 @@
-try {
-  throw new Error();
-  console.log('Hello');
-} catch (err) {
-  console.log('Goodbye');
+function count(...basket) {
+	console.log(basket.length);
 }
 
-var str = 'Hello';
-str.match('jello');
+count(10, 9, 8, 7, 6);
 
-try {
-  Number(5).toPrecision(300);
-} catch (e) {
-  console.log('There was an error');
-}
-
-var globalVar = 77;
-
-function scopeTest() {
-  var localVar = 88;
-}
-
-console.log(localVar);
