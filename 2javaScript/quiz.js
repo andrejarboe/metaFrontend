@@ -1,37 +1,54 @@
+var x = 20;
+
+if (x < 5) {
+	console.log('Apple');
+} else if (x > 10 && x < 20) {
+	console.log('Pear');
+} else {
+	console.log('Orange');
+}
+
+var result = 0;
+
+var i = 0;
+var limit = 3;
+while (i < limit) {
+	result += 2;
+	i++;
+}
+
+console.log(result);
+
+var result = 0;
+
+var i = 0;
+var limit = 3;
+while(i < limit) {
+    result += 2;
+    i++;
+}
+
+console.log(result);
+
+try {
+	throw new Error();
+	console.log('Square');
+} catch (err) {
+	console.log('Circle');
+}
+
+function addTwo(a, b) {
+	return a;
+}
 
 
-// class Dog  {
-// 	constructor() {
-// 		this.noise = 'bark';
-// 	}
-
-// 	makeNoise() {
-// 		return this.noise;
-// 	}
-// }
-
-// class Wolf extends Dog {
-// 	constructor() {
-// 		super();
-// 		this.noise = 'growl';
-// 	}
-// }
-
-// var result = new Wolf();
-// console.log(result.makeNoise());
-
-// const [a, b] = [1, 2, 3, 4]; 
-// console.log(b);
+console.log(addTwo(5, 10));
 
 
-//     function count(...food) {
-// 			console.log(food.length);
-// 		}
+var cat = {};
+cat.sound = 'meow';
+var catSound = 'purr';
+console.log(cat.sound);
 
-// count('Burgers', 'Fries', null);
-		
-
-const letter = 'a';
-letter = 'b';
-
-console.log(letter);
+var veggies = ['parsley', 'carrot'];
+console.log(veggies[2]);
